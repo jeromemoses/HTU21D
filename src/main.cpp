@@ -4,8 +4,8 @@
 
 // Connect Vin to 3-5VDC
 // Connect GND to ground
-// Connect SCL to I2C clock pin (A5 on UNO)
-// Connect SDA to I2C data pin (A4 on UNO)
+// Connect SCL to I2C clock pin (A5 on UNO), (GPIO 22 on ESP32)
+// Connect SDA to I2C data pin (A4 on UNO), (GPIO 21 on ESP32) 
 
 Adafruit_HTU21DF htu = Adafruit_HTU21DF();
 
